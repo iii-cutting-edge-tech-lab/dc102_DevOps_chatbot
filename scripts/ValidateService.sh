@@ -1,8 +1,9 @@
 #!/bin/bash
-if [ `curl -s -I http://localhost:5000 | grep HTTP | awk {'print $2'}` = 200 ]
+#由Docker開啟container數量判斷是否成功
+if [ `docker ps | wc -l` = 1 ]
 then
-  exit 0
+         exit 0
 else
-  exit 1
-fi 
+         exit 1
+fi
 
