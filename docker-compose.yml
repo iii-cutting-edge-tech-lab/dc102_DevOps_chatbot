@@ -1,7 +1,7 @@
 version: '2'
 services:
     web:
-        image: 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/devops-test
+        image: 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/devops-v1
         container_name: flask-devops
         ports:
             - "5000:5000"

@@ -6,7 +6,6 @@ ADD . /code
 WORKDIR /code
 
 # 安裝flask
-RUN pip install update -y
 RUN pip install flask
 
 # 運行flask
