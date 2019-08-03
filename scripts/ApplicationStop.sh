@@ -9,8 +9,6 @@ fi
 if [`docker images | wc -l` > 1 ]
 then
         docker image rm -f 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/dveops-test
-        docker image rm -f 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/devops-test
-        docker image rm -f 204065533127.dkr.ecr.ap-northeast-1.amazonaws.com/devops-test
 fi
 
 exit 0
