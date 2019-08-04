@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #登入ECR repo
 $(aws ecr get-login --no-include-email --registry-ids 204065533127 --region ap-northeast-1)
