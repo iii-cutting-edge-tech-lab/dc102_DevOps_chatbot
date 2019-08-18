@@ -1,2 +1,2 @@
-# dc102_DevOps_flask_web
-This is the origin version of DevOps project.
+# dc102_project02_PracticingDevOps
+This project was present by AWS DevOps praticing.
